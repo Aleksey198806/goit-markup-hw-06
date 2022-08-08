@@ -721,6 +721,7 @@ textarea {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 40px;
 
   min-height: 528px;
   width: 581px;
@@ -755,8 +756,6 @@ textarea {
 }
 /*----------Forma------------*/
 .form {
-  display: block;
-  padding: 40px;
 }
 
 .form-tittle {
