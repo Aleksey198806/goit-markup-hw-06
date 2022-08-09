@@ -565,34 +565,41 @@
             </div>
           </div>
           <div class="form-field order-form-form-field">
-            <label for="commentary" class="form-field-label">Коментар</label>
+            <label for="commentary" class="form-label">Коментар</label>
             <textarea
               id="commentary"
               placeholder="Введіть текст"
               class="form-field-commentary"
             ></textarea>
           </div>
-          <div class="checkbox-cube">
-            <label class="checkbox-cube-label">
+          <div class="checkbox-box">
+            <label class="checkbox-box-label">
               <input
-                class="checkbox-input"
                 type="checkbox"
-                name="topik"
-                value="css"
+                name="contract-conditions"
+                value="agree"
+                class="checkbox-box-checkbox"
               />
-              <span class="checkbox-icon"></span>
-              <p class="checkbox-tittle">
-                Погоджуюся з розсилкою та приймаю&nbsp;<a
-                  href=""
-                  class="checkbox-cube-link"
-                  >Умови договору</a
-                >
-              </p>
+              <span class="checkbox-box-icon"></span>
+              <svg
+                width="16"
+                height="15"
+                class="checkbox-box-icon checkbox-box-icon--checked"
+              >
+                <use
+                  href="./images/icons.svg/symbol-defs-icon.svg#vectorbox"
+                ></use>
+              </svg>
+              Погоджуюся з розсилкою та приймаю&nbsp;<a
+                href=""
+                class="checkbox-box-link"
+                >Умови договору</a
+              >
             </label>
           </div>
 
-          <div class="order-form-btn-cube">
-            <button type="submit" class="order-form-btn">Відправити</button>
+          <div class="order-form-button-cube">
+            <button type="submit" class="order-form-button">Відправити</button>
           </div>
         </form>
       </div>
